@@ -1,10 +1,8 @@
-import logging
-
-import time,os,sys
-
-def pprint(txt):
-    for letters in txt:
-     sys.stdout.write(letters)
-     sys.stdout.flush()
-     time.sleep(0.1)
-logging.error('SYSTEM WILL NOT SHUT DOWN \n FILE ERROR FILE.PY IS IN SUPER.ERRORSTATE ')
+import os
+def findpath(path,file):
+    os.system("python (what ever you named the file)")
+    # here make sure to remove the perenthis  here ^ and
+    #                  ^ here : ) 
+    
+       
+           
