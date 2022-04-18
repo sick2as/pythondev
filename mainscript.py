@@ -1,4 +1,4 @@
-import random
+import random,p
 """
 TODO: 
 1make code simpler (simpler as in easy to read)
@@ -82,4 +82,5 @@ def game():
         if spider.qlives == 0:
             print("Spider has died congrats player")
             arc = False
-game()
+p.findpath()
+run()
