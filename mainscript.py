@@ -1,9 +1,4 @@
 import random,p
-"""
-TODO: 
-1make code simpler (simpler as in easy to read)
-"""
-
 class player:
     def __init__(self,name):
         self.lives = 3
@@ -13,7 +8,6 @@ class player:
         self.lives = self.lives -1
     def resetlives(self):
         self.lives = 3
-
 class enmey:
          def __init__(self,name):
             print(name,"is attacking")
@@ -48,6 +42,15 @@ def game():
             spider = enmey("spider")
         while spider.qlives !=0:
             choice = input("what attack would you like to use 1. Fire ball 100dmg -1 life 2. gold fist 50dmg -1/2 life: ")
+            if choice == "devtools":
+                c = input("what devtool shall you use?")
+                if c == "/endlife":
+                    a.looselife()
+                if c == "//win":
+                    spider.lives = 0
+                if c == ":/givelife":
+                    a.lives = a.lives + 1
+                  
             if choice == "1":
                 if o != "on cooldown":
                  spider.elooselife()
