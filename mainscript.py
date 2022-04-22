@@ -82,5 +82,5 @@ def game():
         if spider.qlives == 0:
             print("Spider has died congrats player")
             arc = False
-p.findpath()
+#p.findpath()
 run()
