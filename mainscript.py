@@ -50,7 +50,8 @@ def game():
                     spider.lives = 0
                 if c == ":/givelife":
                     a.lives = a.lives + 1
-                  
+                if c == "exit":
+                    exit()
             if choice == "1":
                 if o != "on cooldown":
                  spider.elooselife()
