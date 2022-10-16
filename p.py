@@ -1,9 +1,5 @@
 import os
-#NOTE: only use this if you are going to run the file externally
-def findpath(path,file):
-    os.system("python (what ever you named the file)")
-    # here make sure to remove the perenthis  here ^ and
-    #                  ^ here : ) 
-    
-       
-           
+#NOTE: only use this if you are going to run the file from your code editor to an external terminal
+def findpath(path:string):
+    os.system(f"python {path}")
+    # use function and just enter path
