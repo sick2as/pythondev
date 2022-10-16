@@ -1,6 +1,5 @@
-# pythondev
-Python game textbased currently just fixing some  basic errors
+# Python Spider Fighter
+Python Game that is finally finished after a weekend of game dev
 # Updates
-- added dev tools
-- made code easy to read
--
+- Formatted code for easier time reading/editing
+- Finished Game!!!!
