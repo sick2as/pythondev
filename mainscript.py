@@ -1,19 +1,13 @@
-import random
-
-
+import random,p
 class player:
     def __init__(self, name):
         self.lives = 3
         self.name = name
         self.health = 100
-
     def looselife(self):
         self.lives = self.lives - 1
-
     def resetlives(self):
         self.lives = 3
-
-
 class enmey:
     def __init__(self, name):
         print(name, "is attacking")
@@ -29,15 +23,10 @@ class enmey:
             pass
         else:
             print(f"{self.name} is now dead :( ")
-
     def eresetlives(self):
         self.lives = 3
-
-
 name = input("what's your name: ")
 a = player(name)
-
-
 def game():
     o = None
     arc = True
@@ -103,8 +92,6 @@ def game():
                 arc = False
     if arc == False:
         print("Congragulations you have beat Sic2as")           
-
-
 '''
 Updates
 -made more balenced
@@ -112,6 +99,5 @@ Updates
 todo:
 1. Game Complete!
 '''
-
 print("Thank you for playing My game")
 game()
